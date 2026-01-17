@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LogicBox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>LogicBox</h1>
+        <p>JavaScript Core Concepts Playground</p>
+    </header>
+
+    <main id="app">
+
+        <!-- Array Filter Lab -->
+        <section id="filter-lab">
+            <h2>Array Filter Lab</h2>
+
+            <input id="filter-input" type="text" placeholder="Enter numbers (e.g. 1,2,3,4)">
+            <button id="filter-btn">Filter Even Numbers</button>
+
+            <p id="filter-output"></p>
+        </section>
+
+        <!-- Expect Validator Lab -->
+        <section id="expect-lab">
+            <h2>Expectation Validator</h2>
+
+            <input id="expect-val" type="text" placeholder="Value">
+            <input id="expect-check" type="text" placeholder="Compare With">
+
+            <button id="toBe-btn">toBe</button>
+            <button id="notToBe-btn">notToBe</button>
+
+            <p id="expect-output"></p>
+        </section>
+
+        <!-- Counter Lab -->
+        <section id="counter-lab">
+            <h2>Counter Engine</h2>
+
+            <button id="decrement">-</button>
+            <span id="count">0</span>
+            <button id="increment">+</button>
+        </section>
+
+    </main>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/filterLab.js"></script>
+    <script src="js/expectLab.js"></script>
+    <script src="js/counterLab.js"></script>
+
+</body>
+</html>
